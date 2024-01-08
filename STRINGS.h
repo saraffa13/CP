@@ -41,6 +41,7 @@ namespace STUFF
 
     struct string_hash 
     {
+        #define sz(s) s.size()
         int n;
         int m, poly, inv;
         vi prefix, invs;
